@@ -1,8 +1,7 @@
 .Weather {
   font-family: cursive;
   border: 1px solid lightblue;
-  padding: 16px;
-  max-width: 650px;
+  padding: 20px;
   border-radius: 4px;
   color: rgb(135, 135, 135);
 }
@@ -26,20 +25,18 @@
   list-style: none;
 }
 
-.Weather img {
-  height: 64px;
-  width: 64px;
-  margin-left: 10px;
+.Weather canvas {
+  margin-right: 5px;
+  margin-top: 5px;
   display: inline-block;
 }
 
 .Weather .temperature {
   font-weight: bold;
-  font-size: 64px;
+  font-size: 52px;
   font-weight: 400;
   color: rgb(33, 33, 33);
   line-height: 64px;
-  margin-left: 5px;
 }
 
 .Weather .units {
