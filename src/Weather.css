@@ -1,9 +1,18 @@
 .Weather {
   font-family: cursive;
-  border: 1px solid lightblue;
+  border: 2px solid rgba(223, 80, 36, 0.904);
   padding: 20px;
-  border-radius: 4px;
-  color: rgb(135, 135, 135);
+  border-radius: 20px;
+
+  height: 250px;
+  max-width: 100%;
+  width: 500px;
+  margin: 10px auto;
+  background: linear-gradient(
+    109.6deg,
+    rgb(214, 187, 52) 11.2%,
+    rgb(87, 232, 107) 100.2%
+  );
 }
 
 .Weather h1 {
