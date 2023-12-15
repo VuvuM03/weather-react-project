@@ -23,9 +23,9 @@ export default function WeatherForecast(props) {
       </div>
     );
   } else {
-    let apiKey = " 5f472b7acba333cd8a035ea85a0d4d4c";
-    let latitude = props.coordinates.lat;
+    let apiKey = "af84f105d7bof6bt8bab4fe13a865970";
     let longitude = props.coordinates.lon;
+    let latitude = props.coordinates.lat;
     let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`;
 
     axios.get(apiUrl).then(handleResponse);
