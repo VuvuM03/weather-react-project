@@ -23,7 +23,6 @@ export default function Weather(props) {
       icon: response.data.weather[0].icon,
     });
   }
-
   function search() {
     const apiKey = "9eca7aac0b071aa16e3cb063adba0785";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
